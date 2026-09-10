@@ -25,3 +25,5 @@ legacy-marketing-os/
 # TypeScript build cache
 tsconfig.tsbuildinfo
 *.tsbuildinfo
+.vercel
+.env*

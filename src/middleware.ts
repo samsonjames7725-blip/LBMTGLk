@@ -1,7 +1,7 @@
 import { NextResponse, type NextRequest } from 'next/server';
 import { createServerClient } from '@supabase/ssr';
 
-const PUBLIC_PATHS = ['/login', '/api/website/enquiry', '/api/cron', '/api/health', '/auth'];
+const PUBLIC_PATHS = ['/login', '/api/website/enquiry', '/api/cron', '/api/health', '/health', '/auth'];
 
 /**
  * Route protection (spec §11). Authenticated pages require a Supabase session
